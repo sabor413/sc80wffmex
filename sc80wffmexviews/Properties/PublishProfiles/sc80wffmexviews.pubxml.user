@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Sitecore\sc80wffmex\Website</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Start/RouteConfig.cs">
+      <publishTime>10/06/2015 14:05:03</publishTime>
+    </File>
+    <File Include="bin/CustomAction.dll">
+      <publishTime>10/06/2015 18:23:55</publishTime>
+    </File>
+    <File Include="bin/CustomAction.pdb">
+      <publishTime>10/06/2015 18:23:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>10/06/2015 11:20:28</publishTime>
+    </File>
+    <File Include="bin/sc80wffmex.dll">
+      <publishTime>10/06/2015 18:25:05</publishTime>
+    </File>
+    <File Include="bin/sc80wffmex.pdb">
+      <publishTime>10/06/2015 18:25:05</publishTime>
+    </File>
+    <File Include="bin/sc80wffmexviews.dll">
+      <publishTime>10/06/2015 18:34:39</publishTime>
+    </File>
+    <File Include="bin/sc80wffmexviews.pdb">
+      <publishTime>10/06/2015 18:34:39</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Forms.Core.dll">
+      <publishTime>10/06/2015 10:55:34</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>10/06/2015 10:18:37</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>10/06/2015 11:20:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>10/06/2015 11:20:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>10/06/2015 11:33:16</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>10/06/2015 11:20:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>10/06/2015 11:20:28</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>10/06/2015 11:20:28</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/06/2015 11:33:15</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/06/2015 14:10:06</publishTime>
+    </File>
+    <File Include="Views/GenericDisplay.cshtml">
+      <publishTime>10/06/2015 12:50:45</publishTime>
+    </File>
+    <File Include="Views/Menu/Index.cshtml">
+      <publishTime>10/06/2015 13:56:18</publishTime>
+    </File>
+    <File Include="Views/MvcViewLayout.cshtml">
+      <publishTime>10/06/2015 14:00:06</publishTime>
+    </File>
+    <File Include="Views/ProductDisplay.cshtml">
+      <publishTime>10/06/2015 18:25:59</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>10/06/2015 11:33:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

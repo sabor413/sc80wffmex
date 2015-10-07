@@ -1,0 +1,9 @@
+﻿@model IEnumerable<sc80wffmex.Models.MenuElement>
+
+<div>
+    @foreach (var element in @Model)
+    {
+        <a href="@element.Url"> @element.Title</a> <br />
+    }
+</div>
+

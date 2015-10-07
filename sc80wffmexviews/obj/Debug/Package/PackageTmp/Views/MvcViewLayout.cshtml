@@ -1,0 +1,22 @@
+﻿@using Sitecore.Mvc;
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@Html.Sitecore().CurrentItem.Name</title>
+</head>
+<body>
+    <div><i>Header</i></div>
+    <div style="width:800px;">
+        <div style="width:200px; float:left;">
+            @Html.Sitecore().Rendering("{D9DFB1D5-C028-46EB-A59C-39611409CC17}")
+        </div>
+        <div style="width:600px; float:right;">
+            @Html.Sitecore().Placeholder("maincontent")
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+    <div><i>Footer</i></div>
+</body>
+</html>
+

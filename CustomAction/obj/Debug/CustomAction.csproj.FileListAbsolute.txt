@@ -1,0 +1,8 @@
+C:\Users\Carlos\documents\visual studio 2013\Projects\sc80wffmex\CustomAction\bin\CustomAction.dll.config
+C:\Users\Carlos\documents\visual studio 2013\Projects\sc80wffmex\CustomAction\bin\CustomAction.dll
+C:\Users\Carlos\documents\visual studio 2013\Projects\sc80wffmex\CustomAction\bin\CustomAction.pdb
+C:\Users\Carlos\documents\visual studio 2013\Projects\sc80wffmex\CustomAction\bin\Sitecore.Forms.Core.dll
+C:\Users\Carlos\documents\visual studio 2013\Projects\sc80wffmex\CustomAction\bin\Sitecore.Kernel.dll
+C:\Users\Carlos\documents\visual studio 2013\Projects\sc80wffmex\CustomAction\obj\Debug\CustomAction.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\documents\visual studio 2013\Projects\sc80wffmex\CustomAction\obj\Debug\CustomAction.dll
+C:\Users\Carlos\documents\visual studio 2013\Projects\sc80wffmex\CustomAction\obj\Debug\CustomAction.pdb
