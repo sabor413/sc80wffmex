@@ -1,4 +1,6 @@
-﻿@model sc80wffmex.Models.Product
+﻿@using sc80wffmexviews.Helpers
+@using Sitecore.Mvc
+@model sc80wffmex.Models.Product
 @{
 
 }
@@ -7,3 +9,12 @@
     @Model.Description<p></p>
     Price: @Model.Price
 </div>
+
+@using (Html.BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Product"))
+{
+    if (Sitecore.Context.PageMode.IsPageEditor)
+    {
+        <br /><span>Edit The CheckBox</span>
+    }
+
+}
