@@ -13,10 +13,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/06/2015 14:05:03</publishTime>
     </File>
     <File Include="bin/CustomAction.dll">
-      <publishTime>10/06/2015 21:23:47</publishTime>
+      <publishTime>10/06/2015 21:41:59</publishTime>
     </File>
     <File Include="bin/CustomAction.pdb">
-      <publishTime>10/06/2015 21:23:47</publishTime>
+      <publishTime>10/06/2015 21:41:59</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>10/06/2015 11:20:28</publishTime>
@@ -28,10 +28,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/06/2015 18:25:05</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.dll">
-      <publishTime>10/06/2015 21:23:54</publishTime>
+      <publishTime>10/06/2015 21:42:05</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.pdb">
-      <publishTime>10/06/2015 21:23:54</publishTime>
+      <publishTime>10/06/2015 21:42:05</publishTime>
     </File>
     <File Include="bin/Sitecore.Forms.Core.dll">
       <publishTime>10/06/2015 10:55:34</publishTime>

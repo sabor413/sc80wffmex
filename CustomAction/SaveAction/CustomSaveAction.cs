@@ -1,4 +1,6 @@
-﻿namespace CustomAction.SaveAction
+﻿using Sitecore.SecurityModel;
+
+namespace CustomAction.SaveAction
 {
     using Sitecore.Data;
     using Sitecore.Form.Submit;
@@ -11,9 +13,12 @@
 
             var master = Sitecore.Configuration.Factory.GetDatabase("master");
             var producttwo = master.GetItem(new ID("{2D9304C0-9CA7-484A-BD45-4AB664AFAFE3}"));
-            producttwo.Editing.BeginEdit();
-            producttwo.Fields["Price"].Value = "20.00";
-            producttwo.Editing.EndEdit();
+            using (new SecurityDisabler())
+            {
+                producttwo.Editing.BeginEdit();
+                producttwo.Fields["Price"].Value = "20.00";
+                producttwo.Editing.EndEdit();
+            }
         }
     }
 }
