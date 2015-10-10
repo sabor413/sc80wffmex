@@ -16,3 +16,21 @@ c:\users\carlos\documents\visual studio 2013\Projects\sc80wffmex\sc80wffmex\bin\
 c:\users\carlos\documents\visual studio 2013\Projects\sc80wffmex\sc80wffmex\obj\Debug\sc80wffmex.csprojResolveAssemblyReference.cache
 c:\users\carlos\documents\visual studio 2013\Projects\sc80wffmex\sc80wffmex\obj\Debug\sc80wffmex.dll
 c:\users\carlos\documents\visual studio 2013\Projects\sc80wffmex\sc80wffmex\obj\Debug\sc80wffmex.pdb
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\sc80wffmex.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\sc80wffmex.pdb
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.Helpers.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.Mvc.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.Razor.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.WebPages.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.WebPages.Razor.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.Helpers.xml
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.Mvc.xml
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.Razor.xml
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.WebPages.xml
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\bin\System.Web.WebPages.Razor.xml
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\obj\Debug\sc80wffmex.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\obj\Debug\sc80wffmex.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmex\obj\Debug\sc80wffmex.pdb

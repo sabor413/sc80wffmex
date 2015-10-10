@@ -22,19 +22,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/06/2015 11:20:28</publishTime>
     </File>
     <File Include="bin/sc80wffmex.dll">
-      <publishTime>10/06/2015 18:25:05</publishTime>
+      <publishTime>10/10/2015 14:42:22</publishTime>
     </File>
     <File Include="bin/sc80wffmex.pdb">
-      <publishTime>10/06/2015 18:25:05</publishTime>
+      <publishTime>10/10/2015 14:42:22</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.dll">
-      <publishTime>10/07/2015 11:29:53</publishTime>
+      <publishTime>10/10/2015 14:42:35</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.pdb">
-      <publishTime>10/07/2015 11:29:53</publishTime>
+      <publishTime>10/10/2015 14:42:35</publishTime>
     </File>
     <File Include="bin/Sitecore.Forms.Core.dll">
       <publishTime>10/06/2015 10:55:34</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>10/06/2015 10:18:36</publishTime>
     </File>
     <File Include="bin/Sitecore.Mvc.dll">
       <publishTime>10/06/2015 10:18:37</publishTime>
@@ -73,7 +76,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/06/2015 14:00:06</publishTime>
     </File>
     <File Include="Views/ProductDisplay.cshtml">
-      <publishTime>10/07/2015 11:35:52</publishTime>
+      <publishTime>10/10/2015 15:43:00</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>10/06/2015 11:33:59</publishTime>

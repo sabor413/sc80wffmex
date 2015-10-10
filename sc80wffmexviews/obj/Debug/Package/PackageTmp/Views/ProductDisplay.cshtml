@@ -1,5 +1,6 @@
 ﻿@using sc80wffmexviews.Helpers
 @using Sitecore.Mvc
+@using Sitecore.Shell
 @model sc80wffmex.Models.Product
 @{
 
@@ -8,13 +9,16 @@
     <h2>@Model.Title</h2>
     @Model.Description<p></p>
     Price: @Model.Price
+    <br />
+    The current item is: @Model.CurrentItem.Fields["Title"].Value;
+
 </div>
 
 @using (Html.BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Product"))
 {
-    if (Html.IsEditMode())
+    if (Sitecore.Context.PageMode.IsPageEditor)
     {
-        <a href="#">Edit The CheckBox</a>
+        <br /><span>Edit The CheckBox</span>
     }
 
 }

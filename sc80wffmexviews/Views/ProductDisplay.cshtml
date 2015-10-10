@@ -1,13 +1,17 @@
 ﻿@using sc80wffmexviews.Helpers
 @using Sitecore.Mvc
+@using Sitecore.Shell
 @model sc80wffmex.Models.Product
-@{
 
-}
 <div>
     <h2>@Model.Title</h2>
     @Model.Description<p></p>
     Price: @Model.Price
+    <br /><br />
+    The current item is: @Model.CurrentItem.Fields["Title"].Value
+    <br /><br />
+    The Style is: @Model.Parameters["Style"]
+
 </div>
 
 @using (Html.BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Product"))
