@@ -9,8 +9,20 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <_PublishTargetUrl>C:\Sitecore\sc80wffmex\Website</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.CodeFirst.config.exclude">
+      <publishTime>10/11/2015 17:13:41</publishTime>
+    </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.config">
+      <publishTime>10/11/2015 17:13:41</publishTime>
+    </File>
+    <File Include="App_Config/Include/Glass.Mapper.Sc.Start.config">
+      <publishTime>10/11/2015 17:13:40</publishTime>
+    </File>
     <File Include="App_Start/RouteConfig.cs">
       <publishTime>10/06/2015 14:05:03</publishTime>
+    </File>
+    <File Include="bin/Castle.Core.dll">
+      <publishTime>10/11/2015 16:15:53</publishTime>
     </File>
     <File Include="bin/CustomAction.dll">
       <publishTime>10/07/2015 10:34:30</publishTime>
@@ -18,20 +30,29 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/CustomAction.pdb">
       <publishTime>10/07/2015 10:34:30</publishTime>
     </File>
+    <File Include="bin/Glass.Mapper.dll">
+      <publishTime>10/11/2015 16:15:54</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.dll">
+      <publishTime>10/11/2015 16:15:53</publishTime>
+    </File>
+    <File Include="bin/Glass.Mapper.Sc.Mvc.dll">
+      <publishTime>10/11/2015 16:15:54</publishTime>
+    </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>10/06/2015 11:20:28</publishTime>
     </File>
     <File Include="bin/sc80wffmex.dll">
-      <publishTime>10/10/2015 14:42:22</publishTime>
+      <publishTime>10/11/2015 23:00:21</publishTime>
     </File>
     <File Include="bin/sc80wffmex.pdb">
-      <publishTime>10/10/2015 14:42:22</publishTime>
+      <publishTime>10/11/2015 23:00:21</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.dll">
-      <publishTime>10/10/2015 14:42:35</publishTime>
+      <publishTime>10/11/2015 23:00:33</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.pdb">
-      <publishTime>10/10/2015 14:42:35</publishTime>
+      <publishTime>10/11/2015 23:00:33</publishTime>
     </File>
     <File Include="bin/Sitecore.Forms.Core.dll">
       <publishTime>10/06/2015 10:55:34</publishTime>
@@ -64,7 +85,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/06/2015 11:33:15</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>10/06/2015 14:10:06</publishTime>
+      <publishTime>10/11/2015 17:13:41</publishTime>
     </File>
     <File Include="Views/GenericDisplay.cshtml">
       <publishTime>10/06/2015 12:50:45</publishTime>
@@ -75,8 +96,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/MvcViewLayout.cshtml">
       <publishTime>10/06/2015 14:00:06</publishTime>
     </File>
+    <File Include="Views/Product/Index.cshtml">
+      <publishTime>10/11/2015 22:10:08</publishTime>
+    </File>
     <File Include="Views/ProductDisplay.cshtml">
-      <publishTime>10/10/2015 15:43:00</publishTime>
+      <publishTime>10/10/2015 15:46:33</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>10/06/2015 11:33:59</publishTime>

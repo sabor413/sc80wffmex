@@ -38,6 +38,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Castle.Core">
+      <HintPath>..\packages\Castle.Core.3.3.3\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Glass.Mapper">
+      <HintPath>..\packages\Glass.Mapper.Sc.4.0.3.51\lib\net45\Glass.Mapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Glass.Mapper.Sc">
+      <HintPath>..\packages\Glass.Mapper.Sc.4.0.3.51\lib\80\Glass.Mapper.Sc.dll</HintPath>
+    </Reference>
+    <Reference Include="Glass.Mapper.Sc.Mvc">
+      <HintPath>..\packages\Glass.Mapper.Sc.4.0.3.51\lib\Mvc5\Glass.Mapper.Sc.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -95,6 +107,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\CustomRazorWebEngine.cs" />
+    <Compile Include="App_Start\GlassMapperSc.cs" />
+    <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -122,11 +136,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Glass.Mapper.Sc.Start.config" />
+    <Content Include="App_Config\Include\Glass.Mapper.Sc.config" />
+    <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <None Include="Properties\PublishProfiles\sc80wffmexviews.pubxml" />
     <Content Include="Views\MvcViewLayout.cshtml" />
     <Content Include="Views\GenericDisplay.cshtml" />
     <Content Include="Views\ProductDisplay.cshtml" />
     <Content Include="Views\Menu\Index.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

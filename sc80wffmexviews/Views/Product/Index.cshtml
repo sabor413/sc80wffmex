@@ -1,0 +1,30 @@
+﻿@using sc80wffmexviews.Helpers
+@using Sitecore.Mvc
+@*@model sc80wffmex.Models.ProductMapper*@
+@inherits Glass.Mapper.Sc.Web.Mvc.GlassView<sc80wffmex.Models.ProductDisplayViewModel>
+
+<div>
+    <h2>@Editable(Model, x => x.Product.Title)</h2>
+    @Editable(Model, x => x.Product.Description)<p></p>
+    Price: @Editable(Model, x => x.Product.Price)
+    <br /><br />
+    @*The current item is: @Model.CurrentItem.Fields["Title"].Value
+    <br /><br />*@
+    The Style is: @Model.Parameters["Style"]
+
+</div>
+
+@using (Html.BeginEditFrame(Html.Sitecore().CurrentRendering.DataSource, "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Product"))
+{
+    if (Sitecore.Context.PageMode.IsPageEditor)
+    {
+        <br /><span>Edit The CheckBox</span>
+    }
+
+}
+
+@*@using (BeginEditFrame(post.Path))
+{
+    <h3>@Editable(post, x => x.Title)</h3>
+    @Editable(post, x => x.MainBody)
+}*@
