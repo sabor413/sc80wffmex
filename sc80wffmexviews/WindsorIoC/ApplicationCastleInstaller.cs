@@ -1,17 +1,15 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
-using System.Web.Mvc;
-using Castle.Core.Resource;
-
-namespace sc80wffmexviews.WindsorIoC
+﻿namespace sc80wffmexviews.WindsorIoC
 {
+    using System;
+    using System.Linq;
+    using System.Reflection;
+    using System.Web.Mvc;
+
     using Castle.MicroKernel.Registration;
     using Castle.MicroKernel.SubSystems.Configuration;
     using Castle.Windsor;
     
     using sc80wffmex.GlassStructure;
-    using sc80wffmex.Controllers;
 
     public class ApplicationCastleInstaller : IWindsorInstaller
     {
@@ -26,7 +24,7 @@ namespace sc80wffmexviews.WindsorIoC
 
             // MVC Controllers are found and registered - Logging it
             using (var file =
-                new System.IO.StreamWriter(@"C:\Users\Carlos\Documents\Projects\sc80wffmex\Info.txt", true))
+                new System.IO.StreamWriter(@"C:\Users\Carlos\Documents\Projects\sc80wffmex\RegisteredControllers.txt", true))
             {
                 foreach (
                     Assembly b in

@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Specialized;
-using Glass.Mapper.Sc;
-using Sitecore.Mvc.Presentation;
-using Sitecore.Sites;
-using Sitecore.Web;
-
-namespace sc80wffmex.GlassStructure
+﻿namespace sc80wffmex.GlassStructure
 {
+    using System;
+    using System.Collections.Specialized;
+
+    using Glass.Mapper.Sc;
+
+    using Sitecore.Mvc.Presentation;
+    using Sitecore.Web;
+
     public class ContextSitecoreContext : SitecoreContext, IControllerSitecoreContext
     {
         //private readonly IGlassHtml _glassHtml;
