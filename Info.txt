@@ -1,0 +1,4 @@
+Found Assembly = sc80wffmex, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Found Controller = MenuController
+Found Controller = ProductController
+Found Assembly = sc80wffmexviews, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
