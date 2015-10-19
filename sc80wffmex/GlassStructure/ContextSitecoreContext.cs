@@ -2,6 +2,7 @@
 using System.Collections.Specialized;
 using Glass.Mapper.Sc;
 using Sitecore.Mvc.Presentation;
+using Sitecore.Sites;
 using Sitecore.Web;
 
 namespace sc80wffmex.GlassStructure
@@ -9,10 +10,11 @@ namespace sc80wffmex.GlassStructure
     public class ContextSitecoreContext : SitecoreContext, IControllerSitecoreContext
     {
         //private readonly IGlassHtml _glassHtml;
- 
-        //public ContextSitecoreContext(IGlassHtml glassHtml)
+        //private readonly ISitecoreContext _sitecoreContext;
+
+        //public ContextSitecoreContext(ISitecoreContext sitecoreContext)
         //{
-        //    this._glassHtml = glassHtml;
+        //    this._sitecoreContext = sitecoreContext;
         //}
 
         public T GetDataSource<T>() where T : class

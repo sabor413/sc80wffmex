@@ -24,6 +24,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Castle.Core.dll">
       <publishTime>10/11/2015 16:15:53</publishTime>
     </File>
+    <File Include="bin/Castle.Windsor.dll">
+      <publishTime>10/14/2015 12:30:38</publishTime>
+    </File>
     <File Include="bin/CustomAction.dll">
       <publishTime>10/07/2015 10:34:30</publishTime>
     </File>
@@ -43,16 +46,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/06/2015 11:20:28</publishTime>
     </File>
     <File Include="bin/sc80wffmex.dll">
-      <publishTime>10/11/2015 23:00:21</publishTime>
+      <publishTime>10/19/2015 12:22:53</publishTime>
     </File>
     <File Include="bin/sc80wffmex.pdb">
-      <publishTime>10/11/2015 23:00:21</publishTime>
+      <publishTime>10/19/2015 12:22:53</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.dll">
-      <publishTime>10/11/2015 23:00:33</publishTime>
+      <publishTime>10/19/2015 12:33:26</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.pdb">
-      <publishTime>10/11/2015 23:00:33</publishTime>
+      <publishTime>10/19/2015 12:33:26</publishTime>
+    </File>
+    <File Include="bin/SimpleInjector.dll">
+      <publishTime>10/19/2015 10:40:40</publishTime>
+    </File>
+    <File Include="bin/SimpleInjector.Integration.Web.dll">
+      <publishTime>10/19/2015 10:40:41</publishTime>
+    </File>
+    <File Include="bin/SimpleInjector.Integration.Web.Mvc.dll">
+      <publishTime>10/19/2015 10:40:41</publishTime>
     </File>
     <File Include="bin/Sitecore.Forms.Core.dll">
       <publishTime>10/06/2015 10:55:34</publishTime>
@@ -81,11 +93,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/System.Web.Webpages.Razor.dll">
       <publishTime>10/06/2015 11:20:28</publishTime>
     </File>
+    <File Include="bin/WebActivator.dll">
+      <publishTime>10/19/2015 10:40:40</publishTime>
+    </File>
     <File Include="Global.asax">
       <publishTime>10/06/2015 11:33:15</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>10/11/2015 17:13:41</publishTime>
+      <publishTime>10/19/2015 12:32:30</publishTime>
     </File>
     <File Include="Views/GenericDisplay.cshtml">
       <publishTime>10/06/2015 12:50:45</publishTime>
@@ -104,6 +119,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Views/web.config">
       <publishTime>10/06/2015 11:33:59</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/19/2015 10:51:29</publishTime>
     </File>
   </ItemGroup>
 </Project>

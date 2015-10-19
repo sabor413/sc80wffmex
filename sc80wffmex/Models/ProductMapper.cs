@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Web;
 using Glass.Mapper.Sc.Configuration.Attributes;
-using Sitecore.Data;
 
 namespace sc80wffmex.Models
 {

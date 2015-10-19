@@ -56,3 +56,5 @@ C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmexviews\bin\Castle.Core.xm
 C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmexviews\bin\Glass.Mapper.xml
 C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmexviews\bin\Glass.Mapper.Sc.xml
 C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmexviews\bin\Glass.Mapper.Sc.Mvc.xml
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmexviews\bin\Castle.Windsor.dll
+C:\Users\Carlos\Documents\Projects\sc80wffmex\sc80wffmexviews\bin\Castle.Windsor.xml
