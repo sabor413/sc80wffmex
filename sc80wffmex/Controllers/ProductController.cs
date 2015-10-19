@@ -7,7 +7,6 @@ namespace sc80wffmex.Controllers
     public class ProductController : Controller
     {
         private readonly IControllerSitecoreContext _sitecoreContext;
-        public ProductMapper PModel { get; set; }
 
         public ProductController(IControllerSitecoreContext psitecoreContext)
         {
@@ -22,10 +21,9 @@ namespace sc80wffmex.Controllers
             //// This was working without IoC
             //IControllerSitecoreContext sitecoreContext = new ContextSitecoreContext();
 
-            PModel = _sitecoreContext.GetDataSource<ProductMapper>();
             var data = new ProductDisplayViewModel
             {
-                Product = PModel ?? _sitecoreContext.GetCurrentItem<ProductMapper>(),
+                Product = _sitecoreContext.GetDataSource<ProductMapper>(),
                 Parameters = _sitecoreContext.GetRenderingParameters()
             };
 

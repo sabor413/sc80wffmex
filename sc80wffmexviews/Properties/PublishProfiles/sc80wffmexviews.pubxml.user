@@ -46,16 +46,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/06/2015 11:20:28</publishTime>
     </File>
     <File Include="bin/sc80wffmex.dll">
-      <publishTime>10/19/2015 12:22:53</publishTime>
+      <publishTime>10/19/2015 19:38:34</publishTime>
     </File>
     <File Include="bin/sc80wffmex.pdb">
-      <publishTime>10/19/2015 12:22:53</publishTime>
+      <publishTime>10/19/2015 19:38:34</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.dll">
-      <publishTime>10/19/2015 18:02:23</publishTime>
+      <publishTime>10/19/2015 19:38:39</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.pdb">
-      <publishTime>10/19/2015 18:02:22</publishTime>
+      <publishTime>10/19/2015 19:38:38</publishTime>
     </File>
     <File Include="bin/SimpleInjector.dll">
       <publishTime>10/19/2015 10:40:40</publishTime>

@@ -1,0 +1,12 @@
+
+1. The "Restricting Placeholders" application will offer 
+    you to define the set of placeholders where your forms 
+    can be added. 
+2. Republish content to the "web" database.
+3. In the [site root]\Website\Data find WFFM_Analytics.sql and run it on the reporting db of your current instance.
+    This will create 4 additional tables in your reporting db.
+4. Add the following nodes to the Web.config:
+    <add name="CaptchaImage" verb="*" path="CaptchaImage.axd" type="Sitecore.Form.Core.Pipeline.RequestProcessor.CaptchaResolver, Sitecore.Forms.Core" />
+    <add name="CaptchaAudio" verb="*" path="CaptchaAudio.axd" type="Sitecore.Form.Core.Pipeline.RequestProcessor.CaptchaResolver, Sitecore.Forms.Core" />
+- for IIS 6.x under the configuration\system.web\httpHandlers node
+- for IIS 7.x and up under the configuration\system.webServer\handlers node

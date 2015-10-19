@@ -8,15 +8,14 @@
     using Sitecore.Mvc.Presentation;
     using Sitecore.Web;
 
-    public class ContextSitecoreContext : SitecoreContext, IControllerSitecoreContext
+    public class ContextSitecoreContext : IControllerSitecoreContext
     {
-        //private readonly IGlassHtml _glassHtml;
-        //private readonly ISitecoreContext _sitecoreContext;
+        private readonly ISitecoreContext _sitecoreContext;
 
-        //public ContextSitecoreContext(ISitecoreContext sitecoreContext)
-        //{
-        //    this._sitecoreContext = sitecoreContext;
-        //}
+        public ContextSitecoreContext(ISitecoreContext sitecoreContext)
+        {
+            this._sitecoreContext = sitecoreContext;
+        }
 
         public T GetDataSource<T>() where T : class
         {
@@ -24,7 +23,7 @@
 
             if (String.IsNullOrEmpty(dataSource))
             {
-                return default(T);
+                return this._sitecoreContext.GetCurrentItem<T>(); //default(T);
             }
             if (dataSource.StartsWith("query:"))
             {
@@ -33,16 +32,16 @@
                 if (item != null)
                     return item.GlassCast<T>();
                 else
-                    return default(T);
+                    return this._sitecoreContext.GetCurrentItem<T>();  //default(T);
             }
             else
             {
                 Guid dataSourceId;
                 return Guid.TryParse(dataSource, out dataSourceId)
 
-                    ? GetItem<T>(dataSourceId)
+                    ? this._sitecoreContext.GetItem<T>(dataSourceId)
 
-                    : GetItem<T>(dataSource);
+                    : this._sitecoreContext.GetItem<T>(dataSource);
             }
         }
 

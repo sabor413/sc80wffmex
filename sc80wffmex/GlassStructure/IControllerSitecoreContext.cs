@@ -1,9 +1,8 @@
-﻿using System.Collections.Specialized;
-using Glass.Mapper.Sc;
-
-namespace sc80wffmex.GlassStructure
+﻿namespace sc80wffmex.GlassStructure
 {
-    public interface IControllerSitecoreContext : ISitecoreContext
+    using System.Collections.Specialized;
+
+    public interface IControllerSitecoreContext
     {
         T GetDataSource<T>() where T : class;
  

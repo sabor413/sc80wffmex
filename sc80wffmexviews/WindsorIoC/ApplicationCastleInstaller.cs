@@ -1,4 +1,6 @@
-﻿namespace sc80wffmexviews.WindsorIoC
+﻿using Glass.Mapper.Sc;
+
+namespace sc80wffmexviews.WindsorIoC
 {
     using System;
     using System.Linq;
@@ -17,6 +19,8 @@
         {
             // Register working dependencies
             container.Register(Component.For<IControllerSitecoreContext>().ImplementedBy<ContextSitecoreContext>().LifestylePerWebRequest());
+
+            container.Register(Component.For<ISitecoreContext>().ImplementedBy<SitecoreContext>().LifestylePerWebRequest());
 
              // Register the MVC controllers one by one
             //container.Register(Component.For(typeof (MenuController)).LifestylePerWebRequest());
