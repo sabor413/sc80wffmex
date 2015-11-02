@@ -8,6 +8,8 @@
     @Editable(Model, x => x.Product.Description)<p></p>
     Price: @Editable(Model, x => x.Product.Price)
     <br /><br />
+    Link Test: @Editable(Model, x => x.Product.TestLink)<p></p>
+    Rich Text Field: @Editable(Model, x => x.Product.TestRichText)<p></p>
     @*The current item is: @Model.CurrentItem.Fields["Title"].Value
     <br /><br />*@
     The Style is: @Model.Parameters["Style"]

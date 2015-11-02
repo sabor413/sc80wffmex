@@ -13,5 +13,7 @@ namespace sc80wffmex.Models
         public virtual string Description { get; set; }
         public virtual string Price { get; set; }
         public virtual string CanUSeeMe { get; set; }
+        public virtual string TestLink { get; set; }
+        public virtual string TestRichText { get; set; }
     }
 }

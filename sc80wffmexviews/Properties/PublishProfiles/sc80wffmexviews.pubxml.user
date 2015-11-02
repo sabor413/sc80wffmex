@@ -46,16 +46,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/06/2015 11:20:28</publishTime>
     </File>
     <File Include="bin/sc80wffmex.dll">
-      <publishTime>10/19/2015 19:38:34</publishTime>
+      <publishTime>10/21/2015 10:47:09</publishTime>
     </File>
     <File Include="bin/sc80wffmex.pdb">
-      <publishTime>10/19/2015 19:38:34</publishTime>
+      <publishTime>10/21/2015 10:47:09</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.dll">
-      <publishTime>10/19/2015 19:38:39</publishTime>
+      <publishTime>10/21/2015 10:48:14</publishTime>
     </File>
     <File Include="bin/sc80wffmexviews.pdb">
-      <publishTime>10/19/2015 19:38:38</publishTime>
+      <publishTime>10/21/2015 10:48:14</publishTime>
     </File>
     <File Include="bin/SimpleInjector.dll">
       <publishTime>10/19/2015 10:40:40</publishTime>
@@ -112,7 +112,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/06/2015 14:00:06</publishTime>
     </File>
     <File Include="Views/Product/Index.cshtml">
-      <publishTime>10/11/2015 22:10:08</publishTime>
+      <publishTime>10/21/2015 10:48:07</publishTime>
     </File>
     <File Include="Views/ProductDisplay.cshtml">
       <publishTime>10/10/2015 15:46:33</publishTime>
